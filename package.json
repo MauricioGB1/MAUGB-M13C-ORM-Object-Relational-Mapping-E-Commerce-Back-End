@@ -11,15 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/MauricioGB1/MAUGB-M13C-ORM-Object-Relational-Mapping-E-Commerce-Back-End.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mauricio Gomez",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "sqlite3": "^5.0.9",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
